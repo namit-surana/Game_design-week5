@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://54awp5676gxd"]
+
+[ext_resource type="Script" path="res://LevelGenerator.gd" id="1"]
+
+[node name="LevelGenerator" type="Marker2D"]
+position = Vector2(0, 70)
+script = ExtResource("1")
+max_block_number = 69
